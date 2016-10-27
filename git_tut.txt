@@ -1,0 +1,75 @@
+Git tutorial By Vijay Babar step by step - enjoy
+
+download git bash and install it
+
+Step -1
+Create a git account
+	set name
+		git config --global user.name "vijay babar"
+	set email
+		git config --global user.email "vb8311@gamil.com"		
+	check 
+		git config --list
+
+Step -2
+	Create very first project
+	Create new folder
+	Navigate
+		cd.. - back
+		cd -- forward
+		pwd - current directory
+		ls - list of all folders
+		ls -la - for hidden files
+
+	Turn this folder into git project	
+		git init 
+		
+Step -3
+	Create a txt file with some text in it.
+	
+	download project and keed track , git know means add all our change to project
+		git add .		
+	them commit the changes save it taking snapshot
+		git commit -m "This is my first commit 271020162320"
+		
+Step -4
+	view all commit history
+		git log
+	view commit from only a specific persion
+		git log --author="vijay"
+	making changes know
+		git status
+	lets go edit file and commit changes, now we have untrack file
+		git add Git_tutorial.txt
+	all the files from staging area and pust it to the repository	
+		git commit -m "Adding another lines"
+	
+	Note:- Working Copy(Local copty)-> Staging Area(Wherener we add file) ->Repository(when we commit)
+		
+Step -5
+	Viewing diff in local copy and main repository, change file text
+		git status
+	see dif type
+		git diff
+		
+Step -6
+	compare staging area againt repository
+		git diff --staged
+		
+Step -7
+	how to delete files
+		git rm file.txt
+	then commit the change
+		git commit -m "this is deleted file commit"
+		
+Step -8
+	local Rename file
+		git rm first_file.txt
+		git add renamed_file.txt
+		git status
+		git commit -m "rename file"
+		
+	Moning a file is came thing rename in git
+		git mv second.txt third.txt
+		
+Folder things later on				
