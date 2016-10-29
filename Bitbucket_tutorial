@@ -1,0 +1,36 @@
+Hello, Step by step documentation to connect Bitbucket using visual studio 2015 community
+
+Step -1
+	Create new repository on Bitbucket any name you want i.e "PinstormRepository" - check
+	
+	Click on url copy repository link i.e "git clone https://vijaybabar@bitbucket.org/kalptechsystems/pinstormrepository.git" - check
+	
+
+Step -2
+	Open visual studio 2015 community -> Click view -> Team Explorer - check
+	
+	Click Home - check
+	
+	Click manage connections -> Local git repositories -> Click clone -> Enter the repository to clone into first textbox i.e= "https://bitbucket.org/kalptechsystems/pinstormrepository" second textbox add local working dir "folder path that you want to create mvc project ="D:\MVC5_Projects\PinstormPortal" " -> Click clone btn - check						
+
+	Now repository created -> Click on that repository -> Create solutions -> new-> New Project or may be Open Existsing project -> Create MVC Project -> Viual C# -> MVC5	-> Create - Check
+	
+	---Optional start---
+	go to settings -> Global Settings -> username = "vijay babar"
+										Email address = "vijbab.kalp@gmail.com"
+										Defalt repository location = "D\MVC5_Projects\PinstormPortal" -> Click update
+
+										
+	go to settings -> Repository Settings -> Remotes -> Add -> 
+										Name = "PinstormRepository"	
+										bitbucket repository url like this = "https://bitbucket.org/kalptechsystems/pinstormrepository" -> Save it
+	---Optional End---	
+									
+Step -3
+	go to changes -> type with comment-> select commit and Push -> Commit
+
+	Now Check Bitbucket Repository -> hopefully added project on to it - enjoy
+	
+	Go to home controller -> Edit it (Notice File get auto checkout) -> Right click it and Commit it with necessary comment 	
+	
+	Thank you
